@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  font-family: Roboto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url("imagens/fundo1.jpg");
+}
+
+img {
+  width: 40%;
+}
+
+.retangulo {
+  height: 60px;
+  width: 100%;
+  background-color: #67099e;
+}
+
+.botao {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: -5px 6px #67099e;
+  border: 3px solid #67099e;
+  color: #67099e;
+  font-weight: 400;
+  font-size: 1em;
+  transition: all ease-in 0.2s;
+  border-radius: 50px;
+}
+
+.botao:hover,
+.botao:focus {
+  background: #7f32a9;
+  color: #FFF;
+  border-color: #67099e;
+  box-shadow: none;
+}
+
+
+.principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#principal {
+  display: flex;
+}
+
+#principal2 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
